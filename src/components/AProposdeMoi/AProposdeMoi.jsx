@@ -2,7 +2,7 @@ import { useEffect } from 'react'
 import { Dialog } from '@headlessui/react'
 import { ClipboardDocumentListIcon } from '@heroicons/react/24/outline'
 import './style.css';
-import CV from '../Other/CV.pdf'
+import CV from '../Other/CV2.0.pdf'
 
 function AProposdeMoi() {
   const colors = ["#BEE9E7", "#62B9CB", "#1B4B65", "#CAEBFF", "#5FACD3"];
