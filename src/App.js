@@ -4,12 +4,14 @@ import Projets from "./components/Projets/Projets"
 import AProposdeMoi from "./components/AProposdeMoi/AProposdeMoi"
 import Footer from "./components/Footer/Footer"
 import moi from "./images/moi.jpg"
+import { useState } from "react"
+
 function App() {
   return (
     <>
     <Navbar/>
     <AProposdeMoi/>
-    <div className="py-24 sm:py-32">
+    <section id="#a-propos-de-moi" className="py-24 sm:py-32">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto grid max-w-2xl grid-cols-1 items-start gap-x-8 gap-y-16 sm:gap-y-24 lg:mx-0 lg:max-w-none lg:grid-cols-2">
           <div className="lg:pr-4">
@@ -42,7 +44,7 @@ function App() {
           </div>
         </div>
       </div>
-    </div>
+    </section>
     <Projets/>
     <Contact/>
     <Footer/>

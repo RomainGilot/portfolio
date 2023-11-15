@@ -1,8 +1,7 @@
-import { useEffect } from 'react'
-import { Dialog } from '@headlessui/react'
+import { useEffect, useState } from 'react'
 import { ClipboardDocumentListIcon } from '@heroicons/react/24/outline'
 import './style.css';
-import CV from '../Other/CV2.0.pdf'
+import Modal from '../Modal/Modal';
 
 function AProposdeMoi() {
   const colors = ["#BEE9E7", "#62B9CB", "#1B4B65", "#CAEBFF", "#5FACD3"];
@@ -49,7 +48,7 @@ function AProposdeMoi() {
 
     return (
       <>
-      <div className="mx-auto max-w-3xl py-20 sm:py-40 particles-line">
+      <div className="mx-auto max-w-3xl py-20 sm:py-40 particles-line z-1">
           <div className="text-center">
           <h2 className="text-base font-semibold bg-[#EAF9FC] rounded p-1 text-[#5FACD3] inline-block">Bienvenue sur mon portofolio !</h2>
             <h1 className="text-5xl font-bold tracking-tight text-sky-950 sm:text-7xl">
@@ -59,14 +58,7 @@ function AProposdeMoi() {
               Retrouvez toutes les informations qui me concerne sur ce site internet ! 😄
             </p>
             <div className="mt-10 flex items-center justify-center gap-x-6">
-              <a
-                href={CV}
-                target='_blank'
-                className="rounded-md flex bg-[#62B9CB] px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-[#5FACD3] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-violet-600"
-              >
-                <ClipboardDocumentListIcon height={20} className='me-3'/>
-                Retrouvez mon CV
-              </a>
+              <Modal/>
             </div>
           </div>
         </div>
