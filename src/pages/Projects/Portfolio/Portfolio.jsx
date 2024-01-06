@@ -1,5 +1,5 @@
 import Footer from "../../../components/common/Footer/Footer";
-import Navbar from "../../../components/common/Navbar/Navbar";
+import Header from "../../../components/Header/Header";
 import Autres from "../../../components/Projets/components/Autres/Autres";
 import GeneralInfo from "../../../components/Projets/components/GeneralInfo/GeneralInfo";
 import Objectifs from "../../../components/Projets/components/Objectifs/Objectifs";
@@ -16,7 +16,7 @@ function Portfolio() {
   const mesTechnologies = ["React.js", "Node JS", "HTML / CSS", "Tailwind CSS"];
   return (
     <>
-      <Navbar />
+      <Header />
       <div className="p-10 lg:pl-28 lg:pr-28 lg-32 lg-32 mb-10">
         <div class="flex flex-wrap flex-wrap-reverse">
           <div className="pr-20 mb-20">

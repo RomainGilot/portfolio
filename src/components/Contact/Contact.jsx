@@ -1,9 +1,3 @@
-const stats = [
-  { id: 1, name: "contact@romain-gilot.fr", value: "Email" },
-  { id: 2, name: "www.romain-gilot.fr", value: "Site web" },
-  { id: 3, name: "Metz, France", value: "Lieu" },
-];
-
 function Contact() {
   return (
     <>
@@ -33,10 +27,10 @@ function Contact() {
               </svg>
               <div className="ms-10 flex max-w-xs flex-col gap-y-4">
                 <a
-                  href="mailto:contact@romain-gilot.fr"
+                  href="mailto:ro.gilot@icloud.fr"
                   className="text-2xl  tracking-tight text-gray-900"
                 >
-                  contact@romain-gilot.fr
+                  ro.gilot@icloud.fr
                 </a>
                 <dd className="order-first text-gray-600">Email</dd>
               </div>
