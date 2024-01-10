@@ -18,7 +18,7 @@ function Portfolio() {
     <>
       <Header />
       <div className="p-10 lg:pl-28 lg:pr-28 lg-32 lg-32 mb-10">
-        <div class="flex flex-wrap flex-wrap-reverse">
+        <div class="flex flex-col lg:flex-row flex-wrap flex-wrap-reverse">
           <div className="pr-20 mb-20">
             <ReturnButton />
             <GeneralInfo name="Portfolio" year="2023" />
