@@ -15,9 +15,9 @@ function Navbar() {
             className="flex items-center space-x-3 rtl:space-x-reverse"
           >
             <img src={logo} className="h-20" alt="Flowbite Logo" />
-            <span className="invisible md:visible self-center text-2xl font-semibold whitespace-nowrap">
+            {/* <span className="invisible md:visible self-center text-2xl font-semibold whitespace-nowrap">
               Romain GILOT
-            </span>
+            </span> */}
           </a>
           <button
             onClick={toggleNavVisibility}

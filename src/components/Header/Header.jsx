@@ -3,7 +3,7 @@ import logo from "../../images/logov2.svg";
 function Header() {
   return (
     <>
-      <nav className="bg-white border-gray-200 sm:p-7 z-auto">
+      <nav className="bg-white  border-gray-200 sm:p-2 z-auto">
         <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
           <a
             href="https://romain-gilot.fr"
@@ -11,7 +11,7 @@ function Header() {
           >
             <img src={logo} className="h-20" alt="Flowbite Logo" />
             <span className="invisible md:visible self-center text-2xl font-semibold whitespace-nowrap">
-              Romain GILOT
+              <span className="text-[#62B9CB]">Romain GILOT</span> | Développeur Full-Stack en alternance
             </span>
           </a>
         </div>
