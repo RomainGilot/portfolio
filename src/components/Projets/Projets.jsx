@@ -20,6 +20,12 @@ function Projets() {
               message="Ce projet est le site sur lequel vous vous trouvez actuellement ! Bonne visite :)"
               projectName="portfolio"
             />
+              <Box
+              title="GDEPT"
+              img={imgPortfolio}
+              message="Ce projet a été réalisé dans le cadre de mon alternance au SDIS57."
+              projectName="gdept"
+            />
           </div>
         </div>
       </div>
