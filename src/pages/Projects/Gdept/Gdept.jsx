@@ -32,10 +32,10 @@ function Gdept() {
               Contexte
             </h2>
             <p>
-              Pendant mes 3ans d'alternance au SDIS57, j'ai mené diverse missions dont le développement d'une application web sur la gestion des gardes de commandement.<br/><br/>
-              Le <b>D</b>épartement des <b>A</b>ctivités <b>O</b>pérationnelles a exprimé le besoin d'automatiser leur tâches, pour optimiser la gestion des gardes de commandement. Ainsi, j'ai conçu et développé une application web intuitive et fonctionnelle qui répond aux besoins spécifiques du <strong>DAO</strong> du SDIS57. <br/><br/>
+              Pendant mes 3ans d'alternance au SDIS57, j'ai mené diverses missions dont le développement d'une application web sur la gestion des gardes de commandement.<br/><br/>
+              Le <b>D</b>épartement des <b>A</b>ctivités <b>O</b>pérationnelles a exprimé le besoin d'automatiser leurs tâches afin optimiser la gestion des gardes de commandement. Ainsi, j'ai conçu et développé une application web intuitive et fonctionnelle qui répond aux besoins spécifiques du <strong>DAO</strong> du SDIS57. <br/><br/>
 
-Cette application offre une interface permettant aux bénéficiaire de planifier, suivre et gérer efficacement les gardes de commandement. Elle intègre des fonctionnalités avancées telles que la création de plannings, la gestion des disponibilités du personnel, et la génération de rapports... 
+              Cette application offre une interface permettant aux bénéficiaire de planifier, suivre et gérer efficacement les gardes de commandement. Elle intègre des fonctionnalités avancées telles que la création de plannings, la gestion des disponibilités du personnel, et la génération de rapports... 
             </p>
             
           </div>
