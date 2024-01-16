@@ -9,9 +9,10 @@ import imgPortfolio from "../../../images/portfolio.png";
 
 function Gdept() {
   const mesObjectifs = [
-    "Présentation professionnelle",
-    "Mise en valeur des compétences clés",
-    "Démonstration de l'expérience",
+    "Gestion des remplacements",
+    "Formulaire de remplacement d'un agent",
+    "Formulaire de saisie des fonctions",
+    "Génération d'un rapport"
   ];
   const mesTechnologies = ["SvelteKit", "Node JS", "HTML / CSS", "Tailwind CSS", "PostgreSQL"];
   return (
@@ -32,12 +33,27 @@ function Gdept() {
               Contexte
             </h2>
             <p>
-              Pendant mes 3ans d'alternance au SDIS57, j'ai mené diverses missions dont le développement d'une application web sur la gestion des gardes de commandement.<br/><br/>
+              Pendant mes 3ans d'alternance au <a href="https://www.sdis57.fr/" className="text-[#62B9CB] hover:text-[#5FACD3]">SDIS57</a>, j'ai mené diverses missions dont le développement d'une application web sur la gestion des gardes de commandement.<br/><br/>
               Le <b>D</b>épartement des <b>A</b>ctivités <b>O</b>pérationnelles a exprimé le besoin d'automatiser leurs tâches afin optimiser la gestion des gardes de commandement. Ainsi, j'ai conçu et développé une application web intuitive et fonctionnelle qui répond aux besoins spécifiques du <strong>DAO</strong> du SDIS57. <br/><br/>
 
-              Cette application offre une interface permettant aux bénéficiaire de planifier, suivre et gérer efficacement les gardes de commandement. Elle intègre des fonctionnalités avancées telles que la création de plannings, la gestion des disponibilités du personnel, et la génération de rapports... 
+              Cette application offre une interface permettant aux bénéficiaire de planifier, suivre et gérer efficacement les gardes de commandement. Elle intègre des fonctionnalités telles que la création de plannings, la gestion des disponibilités du personnel, et la génération de rapports... 
             </p>
-            
+            <h2 className="text-2xl text-sky-950 font-semibold mt-10 mb-10">
+              Pourquoi SvelteKit ?
+            </h2>
+            <p>Afin d'unifier tous les développements internes, le Département du Numérique du SDIS57 a décidé d'utiliser le framework Javascript SvelteKit car :</p>
+            <li>Facilité d'apprentissage</li>
+            <li>Intégration facile avec les API</li>
+            <li>Développement rapide</li>
+            <li>Vue basée sur des composants réutilisables</li>
+            <li>Uniformisation des développements</li>
+            <h2 className="text-2xl text-sky-950 font-semibold mt-10 mb-10">
+              Problèmes & Solutions
+            </h2>
+            <h2 className="text-2xl text-sky-950 font-semibold mt-10 mb-10">
+              Déploiement
+            </h2>
+           
           </div>
         </div>
       </div>
