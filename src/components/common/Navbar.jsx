@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import logo from "../../../images/logov2.svg";
+import logo from "../../images/logov2.svg";
 function Navbar() {
   const [isNavVisible, setIsNavVisible] = useState(true);
 

@@ -1,5 +1,7 @@
 import { ArrowRightIcon } from "@heroicons/react/24/outline";
-import imgPortfolio from "../../images/portfolio.png";
+import imgPortfolio from "../../images/portfolio.jpg";
+import badge from "../../images/badge.jpg";
+import sdis57 from "../../images/sdis57.jpg";
 import Box from "./components/Box/Box";
 
 function Projets() {
@@ -20,15 +22,15 @@ function Projets() {
               message="Ce projet est le site sur lequel vous vous trouvez actuellement ! Bonne visite :)"
               projectName="portfolio"
             />
-              <Box
+            <Box
               title="GDEPT"
-              img={imgPortfolio}
+              img={sdis57}
               message="Ce projet a été réalisé dans le cadre de mon alternance au SDIS57."
               projectName="gdept"
             />
-              <Box
+            <Box
               title="Access"
-              img={imgPortfolio}
+              img={badge}
               message="Ce projet a été réalisé dans le cadre de mon bachelor Développeur Full-Stack."
               projectName="express"
             />

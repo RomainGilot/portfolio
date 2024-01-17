@@ -1,5 +1,5 @@
-import Footer from "../../../components/common/Footer/Footer";
-import Header from "../../../components/Header/Header";
+import Footer from "../../../components/common/Footer";
+import Header from "../../../components/common/Header";
 import Autres from "../../../components/Projets/components/Autres/Autres";
 import GeneralInfo from "../../../components/Projets/components/GeneralInfo/GeneralInfo";
 import Objectifs from "../../../components/Projets/components/Objectifs/Objectifs";

@@ -1,8 +1,8 @@
-import Navbar from "./components/common/Navbar/Navbar";
+import Navbar from "./components/common/Navbar";
 import Contact from "./components/Contact/Contact";
 import Projets from "./components/Projets/Projets";
 import AProposdeMoi from "./components/AProposdeMoi/AProposdeMoi";
-import Footer from "./components/common/Footer/Footer";
+import Footer from "./components/common/Footer";
 import moi from "./images/moi.jpg";
 import { useState } from "react";
 
