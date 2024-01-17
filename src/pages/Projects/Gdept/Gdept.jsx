@@ -51,7 +51,7 @@ function Gdept() {
               <br />
               <br />
               Le <b>D</b>épartement des <b>A</b>ctivités <b>O</b>pérationnelles
-              a exprimé le besoin d'automatiser leurs tâches afin optimiser la
+              a exprimé le besoin d'automatiser leurs tâches afin d'optimiser la
               gestion des gardes de commandement. Ainsi, j'ai conçu et développé
               une application web intuitive et fonctionnelle qui répond aux
               besoins spécifiques du <strong>DAO</strong> du SDIS57. <br />
@@ -75,13 +75,6 @@ function Gdept() {
             <li>Développement rapide</li>
             <li>Vue basée sur des composants réutilisables</li>
             <li>Uniformisation des développements</li>
-            <h2 className="text-2xl text-sky-950 font-semibold mt-10 mb-10">
-              Problèmes & Solutions
-            </h2>
-            <p>
-              Comme tous développements d'application, j'ai rencontré mon lot de
-              problème et de solution :
-            </p>
             <h2 className="text-2xl text-sky-950 font-semibold mt-10 mb-10">
               Déploiement
             </h2>
