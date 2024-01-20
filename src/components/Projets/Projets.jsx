@@ -7,7 +7,7 @@ import Box from "./components/Box/Box";
 function Projets() {
   return (
     <>
-      <div className="bg-gray-50 p-10 ">
+      <div className="bg-gray-50 p-10 " id="mes-projets">
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
           <h2 className="text-base font-semibold bg-[#EAF9FC] rounded p-1 text-[#5FACD3] inline-block">
             Mes projets

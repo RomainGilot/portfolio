@@ -18,7 +18,7 @@ function Portfolio() {
     <>
       <Header />
       <div className="p-10 lg:pl-28 lg:pr-28 lg-32 lg-32 mb-10">
-        <div class="flex flex-col lg:flex-row flex-wrap flex-wrap-reverse">
+        <div class="flex flex-col md:flex-row flex-wrap flex-wrap-reverse">
           <div className="pr-20 mb-20">
             <ReturnButton />
             <GeneralInfo name="Portfolio" year="2023" />
@@ -32,7 +32,7 @@ function Portfolio() {
               Contexte
             </h2>
             <p>
-              J'ai créé ce portfolio pour rendre ma carrière lgus accessible et
+              J'ai créé ce portfolio pour rendre ma carrière plus accessible et
               compréhensible. C'est un moyen simple et direct de présenter qui
               je suis professionnellement. <br />
               <br />

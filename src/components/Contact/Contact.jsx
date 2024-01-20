@@ -1,7 +1,7 @@
 function Contact() {
   return (
     <>
-      <div className="py-24 bg-white">
+      <div className="py-24 bg-white" id="contact">
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
           <h2 className="text-base font-semibold bg-[#EAF9FC] rounded p-1 text-[#5FACD3] inline-block">
             Me contacter
