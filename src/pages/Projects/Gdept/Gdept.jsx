@@ -50,6 +50,7 @@ function Gdept() {
             <li>Vue basée sur des composants réutilisables</li>
             <li>Uniformisation des développements</li>
             <h2 className="text-2xl text-sky-950 font-semibold mt-10 mb-10">Déploiement</h2>
+            <code>En cours d'écriture...</code>
           </div>
         </div>
       </div>

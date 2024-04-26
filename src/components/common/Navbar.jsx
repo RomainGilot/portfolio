@@ -10,11 +10,8 @@ function Navbar() {
     <>
       <nav className="bg-white border-gray-200 sm:p-7 z-auto">
         <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
-          <a
-            href="https://romain-gilot.fr"
-            className="flex items-center space-x-3 rtl:space-x-reverse"
-          >
-            <img src={logo} className="h-20" alt="Flowbite Logo" />
+          <a href="https://romain-gilot.fr" className="flex items-center space-x-3 rtl:space-x-reverse">
+            <img src={logo} className="h-20 md:h-36" alt="Flowbite Logo" />
           </a>
           <button
             onClick={toggleNavVisibility}
@@ -25,28 +22,11 @@ function Navbar() {
             aria-expanded="false"
           >
             <span className="sr-only">Open main menu</span>
-            <svg
-              className="w-5 h-5"
-              aria-hidden="true"
-              xmlns="http://www.w3.org/2000/svg"
-              fill="none"
-              viewBox="0 0 17 14"
-            >
-              <path
-                stroke="currentColor"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
-                d="M1 1h15M1 7h15M1 13h15"
-              />
+            <svg className="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
+              <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15" />
             </svg>
           </button>
-          <div
-            className={`w-full md:block md:w-auto ${
-              isNavVisible ? "hidden" : ""
-            }`}
-            id="navbar-default"
-          >
+          <div className={`w-full md:block md:w-auto ${isNavVisible ? "hidden" : ""}`} id="navbar-default">
             <ul className="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg  md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0">
               <li>
                 <a
@@ -63,6 +43,14 @@ function Navbar() {
                   className="block py-2 px-3 ext-sky-950 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-[#5FACD3] md:p-0"
                 >
                   Mes projets
+                </a>
+              </li>
+              <li>
+                <a
+                  href="#parcours"
+                  className="block py-2 px-3 ext-sky-950 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-[#5FACD3] md:p-0"
+                >
+                  Mon parcours
                 </a>
               </li>
               <li>

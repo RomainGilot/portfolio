@@ -1,0 +1,37 @@
+.loading-container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Centrer verticalement */
+}
+
+.loading-image {
+  position: relative;
+  z-index: 1; /* Met l'image au-dessus du cercle */
+  width: 200px; /* Ajustez la taille de l'image selon vos besoins */
+  height: auto;
+}
+
+.loading-animation {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 8px solid #f3f3f3; /* Couleur du cercle */
+  border-top: 8px solid transparent; /* Utilisez la couleur transparente pour la partie non dessinée */
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  animation: spin 1s linear infinite; /* Animation de rotation */
+  animation-fill-mode: forwards; /* La dernière étape de l'animation reste active */
+}
+
+@keyframes spin {
+  0% {
+    transform: translate(-50%, -50%) rotate(0deg);
+  }
+  100% {
+    transform: translate(-50%, -50%) rotate(360deg);
+  }
+}
