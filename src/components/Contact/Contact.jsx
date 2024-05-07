@@ -3,12 +3,8 @@ function Contact() {
     <>
       <div className="py-24 bg-white" id="contact">
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
-          <h2 className="text-base font-semibold bg-[#EAF9FC] rounded p-1 text-[#5FACD3] inline-block">
-            Me contacter
-          </h2>
-          <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl mb-10">
-            Vous souhaitez me contacter ?
-          </p>
+          <h2 className="text-base font-semibold bg-[#EAF9FC] rounded p-1 text-[#5FACD3] inline-block">Me contacter</h2>
+          <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl mb-10">Vous souhaitez me contacter ?</p>
 
           <dl className="grid grid-cols-1 gap-x-8 gap-y-16 lg:grid-cols-3">
             <div className="flex items-center ms:mx-auto">
@@ -26,11 +22,8 @@ function Contact() {
                 />
               </svg>
               <div className="ms-10 flex max-w-xs flex-col gap-y-4">
-                <a
-                  href="mailto:ro.gilot@icloud.fr"
-                  className="text-2xl  tracking-tight text-gray-900"
-                >
-                  ro.gilot@icloud.fr
+                <a href="mailto:ro.gilot@icloud.fr" className="text-2xl  tracking-tight text-gray-900">
+                  romain.gilot22@gmail
                 </a>
                 <dd className="order-first text-gray-600">Email</dd>
               </div>
@@ -66,21 +59,11 @@ function Contact() {
                 stroke="currentColor"
                 className="w-10 h-10 text-[#62B9CB] inline-block"
               >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z"
-                />
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1115 0z"
-                />
+                <path strokeLinecap="round" strokeLinejoin="round" d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z" />
+                <path strokeLinecap="round" strokeLinejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1115 0z" />
               </svg>
               <div className="ms-10 flex max-w-xs flex-col gap-y-4">
-                <dt className="text-2xl  tracking-tight text-gray-900">
-                  Metz, France
-                </dt>
+                <dt className="text-2xl  tracking-tight text-gray-900">Metz, France</dt>
                 <dd className="text-gray-600 order-first">Lieu</dd>
               </div>
             </div>
