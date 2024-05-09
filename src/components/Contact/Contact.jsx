@@ -22,8 +22,8 @@ function Contact() {
                 />
               </svg>
               <div className="ms-10 flex max-w-xs flex-col gap-y-4">
-                <a href="mailto:ro.gilot@icloud.fr" className="text-2xl  tracking-tight text-gray-900">
-                  romain.gilot22@gmail
+                <a href="mailto:romain.gilot22@gmail.com" className="text-2xl  tracking-tight text-gray-900">
+                  romain.gilot22@gmail.com
                 </a>
                 <dd className="order-first text-gray-600">Email</dd>
               </div>
